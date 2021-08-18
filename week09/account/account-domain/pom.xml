@@ -11,5 +11,16 @@
 
     <artifactId>account-domain</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.suncj.account</groupId>
+            <artifactId>account-api</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.suncj.account</groupId>
+            <artifactId>account-dependent</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>
