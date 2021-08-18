@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.suncj.account:account-dependent:unknown">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/suncj/account/account-dependent/unknown/account-dependent-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/suncj/account/account-dependent/unknown/account-dependent-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/suncj/account/account-dependent/unknown/account-dependent-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

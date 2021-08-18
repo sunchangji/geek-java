@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/account.iml" filepath="$PROJECT_DIR$/account.iml" />
+      <module fileurl="file://$PROJECT_DIR$/account-api/account-api.iml" filepath="$PROJECT_DIR$/account-api/account-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/account-dependent/account-dependent.iml" filepath="$PROJECT_DIR$/account-dependent/account-dependent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/account-domain/account-domain.iml" filepath="$PROJECT_DIR$/account-domain/account-domain.iml" />
+    </modules>
+  </component>
+</project>
