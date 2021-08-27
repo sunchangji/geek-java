@@ -5,15 +5,12 @@ import io.kimmking.rpcfx.api.LoadBalancer;
 import io.kimmking.rpcfx.api.Router;
 import io.kimmking.rpcfx.api.RpcfxRequest;
 import io.kimmking.rpcfx.client.Rpcfx;
-import io.kimmking.rpcfx.demo.api.Order;
-import io.kimmking.rpcfx.demo.api.OrderService;
 import io.kimmking.rpcfx.demo.api.User;
 import io.kimmking.rpcfx.demo.api.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import java.util.List;
-import java.util.Random;
 
 @SpringBootApplication
 public class RpcfxClientApplication {
@@ -28,7 +25,7 @@ public class RpcfxClientApplication {
 		// UserService service = new xxx();
 		// service.findById
 
-		UserService userService = Rpcfx.create(UserService.class, "http://localhost:8080/");
+		UserService userService = Rpcfx.createNew(UserService.class, "http://localhost:8080/");
 		User user = userService.findById(1);
 		System.out.println("find user id=1 from server: " + user.getName());
 
