@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * @Classname DistributedLockComponent
- * @Description TODO
+ * @Description 分布式锁
  * @Date 2021/9/3 2:19 下午
  * @Created by sunchangji
  */
