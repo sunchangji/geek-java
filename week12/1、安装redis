@@ -1,0 +1,31 @@
+1、安装redis
+brew install redis
+2、创建redis数据存储目录
+mkdir /Users/sunchangji/Documents/GitHub/geek-java/week12/logs/redis0
+mkdir /Users/sunchangji/Documents/GitHub/geek-java/week12/logs/redis1
+3、切到第一台redis启动文件配置目录
+cd /Users/sunchangji/Documents/GitHub/geek-java/week12
+4、启动第一台redis服务
+redis-server redis6379.conf
+5、切到第二台redis启动文件配置目录
+cd /Users/sunchangji/Documents/GitHub/geek-java/week12
+6、启动第二台redis启动文件配置目录
+redis-server redis6380.conf
+
+7、连接6379redis服务
+redis-cli -p 6379
+8.查看所有数据
+keys *
+9、设置数据
+set suncj01 11
+10、获取数据
+get suncj01
+
+11、连接6380redis服务
+redis-cli -p 6380
+keys *
+set suncj01 666
+get suncj01
+12、配置6380是6379的从
+SLAVEOF 127.0.0.1 6379
+13、get suncj01 此时看到的数据变成了111
