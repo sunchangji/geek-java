@@ -16,7 +16,7 @@
 [并发编程脑图](/week14/并发编程.xmind)
 
 ### 4、Spring和ORM等框架
-```待补充```
+```spring的发展历程之前真没认真了解,本次的学习开篇讲到spring技术发展我觉得还是很有意思的,对spring背景的了解能对spring的理解有帮助,之前只是使用spring,对spring XML配置原理手动实现这个还真没思考过,经过动手实现,收货很多;对springAop字节码增强有了更多的认知```
 
 [并发编程脑图](/week14/Spring和ORM框架.xmind)
 
